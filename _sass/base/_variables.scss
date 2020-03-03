@@ -9,8 +9,8 @@ $padding-small: 5% !default;
 $padding-x-small: 3% !default;
 
 // Brand colours
-$brand-color: #000 !default;
-$background-color: #000 !default;
+$brand-color: #010101 !default;
+$background-color: #010101 !default;
 $border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
 
 // Typography colours
@@ -33,5 +33,5 @@ $feature-image-size: cover !default; // options include "cover", "contain", "aut
 
 // Header description box
 $header-desc-background-color: #1ABC9C !default;
-$header-desc-text-color: #383838  !default;
+$header-desc-text-color: #010101  !default;
 $header-desc-link-color: #02453D !default;
