@@ -14,7 +14,7 @@ $background-color: #000 !default;
 $border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838 !default;
+$text-color: #fff !default;
 $link-color: #1ABC9C !default;
 $selection-color: #D4D4D4 !default; // visible when highlighting text
 
@@ -22,10 +22,10 @@ $selection-color: #D4D4D4 !default; // visible when highlighting text
 $tags-color: #b0b0b0 !default;
 
 //Search color
-$search-color: #999 !default;
+$search-color: #fff !default;
 
 // Header colours
-$header-link-color: #383838 !default;
+$header-link-color: #fff !default;
 
 // Feature image for articles
 $feature-image-text-color: #fff !default;
