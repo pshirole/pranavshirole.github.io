@@ -22,7 +22,7 @@ $selection-color: #D4D4D4 !default; // visible when highlighting text
 $tags-color: #b0b0b0 !default;
 
 //Search color
-$search-color: #1B262C !default;
+$search-color: #fff !default;
 
 // Header colours
 $header-link-color: #383838 !default;
@@ -35,3 +35,7 @@ $feature-image-size: cover !default; // options include "cover", "contain", "aut
 $header-desc-background-color: #bbe1fa !default;
 $header-desc-text-color: #1B262C !default;
 $header-desc-link-color: #02453D !default;
+
+a.site-header{
+  color: #fff;
+}
