@@ -541,8 +541,7 @@ plt.ylabel('Income', fontsize=16)
 plt.show()
 ```
 
-![Geometric pattern with fading gradient]({{ site.baseurl }}/assets/img/sample_feature_img_2.png)
-!({{ site.baseurl }}/assets/img/output_18_1.png)
+![Customer segmentation]({{ site.baseurl }}/assets/img/output_18_1.png)
 
 
 
