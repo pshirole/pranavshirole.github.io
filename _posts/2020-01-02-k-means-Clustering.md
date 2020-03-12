@@ -132,7 +132,7 @@ plot_points(figure_title='Scatter Plot of x2 vs x1')
 ```
 
 
-![png](output_12_0.png)
+<img src= "/assets/img/k-means/intro/output_12_0.png">
 
 
 Initialize k-means: randomly define clusters and add them to the plot.
@@ -144,7 +144,7 @@ plot_points(centers, figure_title='k-means Initialization')
 ```
 
 
-![png](output_14_0.png)
+<img src= "/assets/img/k-means/intro/output_14_0.png">
 
 
 Run k-means: 4 iterations
@@ -167,56 +167,56 @@ for i in range(number_of_iterations):
     
 
 
-![png](output_16_1.png)
+<img src= "/assets/img/k-means/intro/output_16_1.png">
 
 
     Iteration 1 - Press Enter to update the centers
     
 
 
-![png](output_16_3.png)
+<img src= "/assets/img/k-means/intro/output_16_3.png">
 
 
     Iteration 2 - Press Enter to update the members of each cluster
     
 
 
-![png](output_16_5.png)
+<img src= "/assets/img/k-means/intro/output_16_5.png">
 
 
     Iteration 2 - Press Enter to update the centers
     
 
 
-![png](output_16_7.png)
+<img src= "/assets/img/k-means/intro/output_16_7.png">
 
 
     Iteration 3 - Press Enter to update the members of each cluster
     
 
 
-![png](output_16_9.png)
+<img src= "/assets/img/k-means/intro/output_16_9.png">
 
 
     Iteration 3 - Press Enter to update the centers
     
 
 
-![png](output_16_11.png)
+<img src= "/assets/img/k-means/intro/output_16_11.png">
 
 
     Iteration 4 - Press Enter to update the members of each cluster
     
 
 
-![png](output_16_13.png)
+<img src= "/assets/img/k-means/intro/output_16_13.png">
 
 
     Iteration 4 - Press Enter to update the centers
     
 
 
-![png](output_16_15.png)
+<img src= "/assets/img/k-means/intro/output_16_15.png">
 
 
 From the above example, you can visually observe how k-means works.
@@ -271,7 +271,7 @@ plt.scatter(X[:,0], X[:,1], marker='.')
 
 
 
-![png](output_24_1.png)
+<img src= "/assets/img/k-means/intro/output_24_1.png">
 
 
 #### Setting up k-means
@@ -392,5 +392,5 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+<img src= "/assets/img/k-means/intro/output_36_0.png">
 
