@@ -539,7 +539,7 @@ plt.ylabel('Income', fontsize=16)
 plt.show()
 ```
 
-<img src= "/assets/img/k-means/cust_seg/output_17_0.png">
+<img src= "/assets/img/k-means/cust_seg/output_17_0.png" height="142" width="142">
 
 
 
