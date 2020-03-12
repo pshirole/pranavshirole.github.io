@@ -5211,7 +5211,7 @@ map_newyork
 
 
 
-<img src="/assets/img/clustering neighborhoods/nyc/map1.jpg">
+<img src="/assets/img/clustering neighborhoods/nyc/map1.JPG">
 
 
 
@@ -5334,7 +5334,7 @@ map_manhattan
 ```
 
 
-<img src = "/assets/img/clustering neighborhoods/nyc/map2.jpg">
+<img src = "/assets/img/clustering neighborhoods/nyc/map2.JPG">
 
 
 
