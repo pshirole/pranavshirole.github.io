@@ -539,7 +539,7 @@ plt.ylabel('Income', fontsize=16)
 plt.show()
 ```
 
-![png](k-means_Customer_Segmentation_files/k-means_cust_seg_17_0.png)
+![png](k-means_Customer_Segmentation_files/k-means_cust_seg_output_17_0.png)
 
 
 
@@ -565,7 +565,7 @@ ax.scatter(X[:, 1], X[:, 0], X[:, 3], c= labels.astype(np.float))
 
 
 
-![png](k-means_Customer_Segmentation_files/k-means_cust_seg_18_1.png)
+![png](k-means_Customer_Segmentation_files/k-means_cust_seg_output_18_1.png)
 
 
 k-means will partition the customers into three groups since we specified the algorithm to generate three clusters. The customers in each cluster are similar to each other in terms of the features included in the dataset.  
