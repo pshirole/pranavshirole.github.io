@@ -1,13 +1,11 @@
 ---
 layout: post
 title: k-means Clustering for Customer Segmentation
-tags: [Clustering, k-means]
+tags: [Segmentation, Clustering, k-means, finance]
 ---
 
-# k-means for Customer Segmentation
-
 Imagine that you have a customer dataset, and you are interested in exploring the behavior of your customers using their historical data.  
-Customer segmentation is the practice of partitioning a customer base into groups of individuals that have similar characteristics. It is a significant strategy as abusiness can target these specific groups of customers and effectively allocate marketing resources.
+Customer segmentation is the practice of partitioning a customer base into groups of individuals that have similar characteristics. It is a significant strategy as a business can target these specific groups of customers and effectively allocate marketing resources.
 
 The dataset being worked on consists of 850 customers, with information about their income and debt. You can download the data set here: https://cocl.us/customer_dataset
 
