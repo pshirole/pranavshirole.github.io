@@ -565,8 +565,6 @@ ax.scatter(X[:, 1], X[:, 0], X[:, 3], c= labels.astype(np.float))
 
 
 
-![png](k-means_Customer_Segmentation_files/k-means/cust_seg/output_18_1.png)
-
 <img src= "/assets/img/k-means/cust_seg/output_18_1.png">
 
 
