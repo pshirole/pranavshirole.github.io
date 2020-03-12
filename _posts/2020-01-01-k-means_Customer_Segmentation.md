@@ -539,7 +539,7 @@ plt.ylabel('Income', fontsize=16)
 plt.show()
 ```
 
-![Customer segmentation]({{ site.baseurl }}/assets/img/output_18_1.png)
+![png](k-means_Customer_Segmentation_files/k-means_Customer_Segmentation_17_0.png)
 
 
 
