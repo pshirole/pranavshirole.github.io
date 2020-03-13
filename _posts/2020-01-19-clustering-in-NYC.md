@@ -5344,8 +5344,8 @@ We will utilize the Foursquare API to explore the neighborhoods and segment them
 
 ```python
 # define Foursquare Credentials
-CLIENT_ID = 'B50RYBOWHJ3ZMRVEFTLHJCXGOYNCXGI13VDT5FMYTUQSUTQC' 
-CLIENT_SECRET = 'ST2IN4ZGOQ3BXEWJ2HW1LKUML2BBGK1JX1QD2WKEPET31W4W'
+CLIENT_ID = '**********' 
+CLIENT_SECRET = '**********'
 VERSION = '20191219'
 ```
 
