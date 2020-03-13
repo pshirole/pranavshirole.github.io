@@ -1,4 +1,9 @@
-# Segmenting and Clustering Neighborhoods in Toronto
+---
+layout: post
+title: Segmenting and Clustering Neighborhoods in Toronto
+tags: [segmentation, clustering, k-means, random data generation]
+---
+
 In this blog post, we will explore neighborhoods in Toronto, Canada.
 
 First, we will build the code to scrape an HTML table from this Wikipedia page (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) that lists postal codes in Canada.  
