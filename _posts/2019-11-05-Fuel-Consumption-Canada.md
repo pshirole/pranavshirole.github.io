@@ -4,8 +4,6 @@ title: Analyzing Emission Ratings for all cars in Canada (model year 2019)
 tags: [regression, plotting, modeling, machine learning]
 ---
 
-# Fuel Consumption and Emission Ratings of all Cars with model year 2019 in Canada.
-
 In this blog post, we will use scikit-learn to implement different types of linear regression on our dataset. Then, we will split our data into training and testing sets, create a model using the training set, evaluate the model using a test set, and finally use the model to predict an unknown value.
 The dataset is related to the Fuel Consumption and Carbon Dioxide Emission of all cars for retail sale in Canada in the year 2019. You can download the dataset here: https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64
 
