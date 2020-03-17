@@ -18,7 +18,7 @@ import pandas as pd
 import numpy as np
 ```
 
-### Scrape the HTML table cells.
+### Scrape the HTML table cells
 
 
 ```python
