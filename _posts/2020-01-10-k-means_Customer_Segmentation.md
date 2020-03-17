@@ -1,7 +1,7 @@
 ---
 layout: post
 title: k-means Clustering for Customer Segmentation
-tags: [segmentation, clustering, k-means, finance]
+tags: [segmentation, clustering, k-means]
 ---
 
 Imagine that you have a customer dataset, and you are interested in exploring the behavior of your customers using their historical data.  
