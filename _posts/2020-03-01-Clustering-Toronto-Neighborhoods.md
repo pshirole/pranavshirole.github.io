@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Segmenting and Clustering Neighborhoods in Toronto
-tags: [segmentation, clustering, k-means, random data generation, web scraping]
+tags: [segmentation, clustering, k-means, random data, web scraping]
 ---
 
 In this blog post, we will explore neighborhoods in Toronto, Canada.
