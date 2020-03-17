@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Segmenting and Clustering Neighborhoods in New York City
-tags: [segmentation, clustering, k-means, places, maps]
+tags: [segmentation, clustering, k-means, maps]
 ---
 
 In this blog post, we will explore neighborhoods in New York City using the Foursquare API. We will get the most common venue categories in each neighborhood, and then using the k-means clustering algorithm, group the neighborhoods into clusters.
