@@ -6,7 +6,7 @@ tags: [segmentation, clustering, k-means, web scraping]
 
 In this blog post, we will explore neighborhoods in Toronto, Canada using web scraping and the Foursquare API. We will get the most common venue categories in each neighborhood, and then using the k-means clustering algorithm, group the neighborhoods into clusters.
 
-First, we will build the code to scrape an HTML table from this Wikipedia page (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) that lists postal codes in Canada.  
+First, we will build the code to scrape an HTML table from [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) that lists postal codes in Canada.  
 We will need **requests** for getting the HTML contents of the website and **lxml.html** for parsing the relevant fields. We will then store this data on a **pandas** dataframe.
 
 
