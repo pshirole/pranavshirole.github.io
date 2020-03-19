@@ -6,8 +6,6 @@ tags: [segmentation, clustering, k-means, maps]
 
 In this blog post, we will explore neighborhoods in New York City using the Foursquare API. We will get the most common venue categories in each neighborhood, and then using the k-means clustering algorithm, group the neighborhoods into clusters.
 
-*Note: You will not be able to interact with the maps in this blog post since Github pages does not support Folium. However, if you copy the code into your own Jupyter notebook, you will be able to get interactive maps.*
-
 
 ```python
 import numpy as np # library to handle data in a vectorized manner
