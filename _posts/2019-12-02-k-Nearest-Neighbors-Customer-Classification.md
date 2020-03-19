@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customer Classification using K-Nearest Neighbors
-tags: [k-nearest neighbors, plotting, modeling, classification]
+tags: [k-nearest neighbors, plotting, classification]
 ---
 
 Imagine a telecommunications provider has segmented its customer base by service usage patterns, categorizing the customers into four groups. If demographic data can be used to predict group membership, the company can customize offers for individual prospective customers. It is a classification problem. That is, given the dataset, with predefined labels, we need to build a model to be used to predict class of a new or unknown case.
@@ -203,7 +203,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+<img src="/assets/img/KNN_Cust_Class/output_9_0.png">
 
 
 Define the feature set, X.
@@ -396,7 +396,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+<img src="/assets/img/KNN_Cust_Class/output_31_0.png">
 
 
 
