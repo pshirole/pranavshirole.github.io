@@ -529,7 +529,7 @@ sanfran_map
 ```
 
 
-<img src= "assets/img/folium_sf_crime/map1.JPG">
+<img src= "assets/img/sf_crime/map1.JPG">
 
 
 Let's create clusters of neighborhoods. The number of crimes per clusters is denoted on the cluster circle. In a Jupyter notebook, you can interact with the map - click on a cluster to zoom in, in on a marker to check the category of the crime.
@@ -556,7 +556,7 @@ for lat, lng, label, in zip(df.Latitude, df.Longitude, df.Category):
 sanfran_map
 ```
 
-<img src= "assets/img/folium sf crime/map2.JPG">
+<img src= "assets/img/sf_crime/map2.JPG">
 
 
 ```python
