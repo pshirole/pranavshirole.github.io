@@ -1,4 +1,8 @@
-# Studying crime in San Francisco using Maps
+---
+layout: post
+title: Studying crime in San Francisco using Folium
+tags: [maps]
+---
 
 In this blog, we will be looking at the crime data in the city of San Francisco. The data we will be using contains all crimes in San Francisco from the year 2018 to 2020. You can download the data [here](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783). Since this dataset is very large (more than 330,000 crimes), we will be considering only a small part of the data for this post.
 
