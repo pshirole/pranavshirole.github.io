@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Exploring India using Folium Maps
-tags: [folium, maps]
+tags: [maps]
 ---
 
 Folium is a powerful Python library that helps you create several types of Leaflet maps. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Also, these maps are interactive so you can zoom into any region of interest despite the initial zoom level.  
-
-*Note: You will not be able to interact with the maps in this blog post since Github pages does not support Folium. However, if you copy the code into your own Jupyter notebook, you will be able to get interactive maps.*
 
 
 ```python
