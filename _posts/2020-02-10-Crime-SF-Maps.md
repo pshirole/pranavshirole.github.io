@@ -532,7 +532,8 @@ sanfran_map
 <img src= "/assets/img/sf_crime/map1.JPG">
 
 
-Let's create clusters of neighborhoods. The number of crimes per clusters is denoted on the cluster circle. In a Jupyter notebook, you can interact with the map - click on a cluster to zoom in, in on a marker to check the category of the crime.
+Let's group the markers into different clusters. Each cluster is then represented by the number of crimes in each neighborhood. These clusters can be thought of as pockets of San Francisco which you can then analyze separately.  
+We instantiate a *MarkerCluster* object and add all the data points in the dataframe to this object.
 
 
 ```python
@@ -562,3 +563,4 @@ sanfran_map
 ```python
 
 ```
+If run the above code in a Jupyter notebook, you can zoom out all the way, and you will see that all markers are grouped into one cluster - the global cluster of 100 crimes (which is the total number of crimes we have considered in our dataset). Once you start zooming in, the global cluster will start breaking up into smaller clusters. Zooming in all the way will result in individual markers.
