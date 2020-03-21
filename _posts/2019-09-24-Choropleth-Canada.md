@@ -1,3 +1,9 @@
+---
+layout: post
+title: Visualizing Immigration to Canada using a Choropleth Map
+tags: [maps]
+---
+
 A Choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map. It provides an easy way to visualize how a measurement varies across a geographical area or it shows the level of variability within a region.  
 
 In this blog post, we will create a Chropleth map of the world depicting immigration from various countries to Canada. The dataset is officially collected by the United Nations and contains the international migrant flows to Canada from other countries from the years 1980 to 2013. You can [download the dataset here](https://www.un.org/en/development/desa/population/migration/data/empirical2/migrationflows.asp).
