@@ -724,7 +724,7 @@ world_map
 
 
 As per the map legend, the darker the color of a country and the closer the color to red, the higher the number of immigrants from that country. Accordingly, the highest immigration over the course of 33 years (from 1980 to 2013) was from China, India, Great Britain, and the Philippines, followed by Pakistan, the US, and Poland.
-
+*Note: The countries that are denoted in grey color have been excluded from the list.*
 
 ```python
 
