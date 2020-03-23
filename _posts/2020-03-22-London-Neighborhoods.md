@@ -4,7 +4,7 @@ title: Where should you live in London?
 tags: [segmentation, clustering, k-means, web scraping]
 ---
 
-Imagine you are moving to London, UK. It's a major metropolitan city, a financial hub, a famous tourist destination, and home to around 9 million people. But as with every big city, crime is a concern, and you would like to live in a neighborhood that is safe and also popular. In this blog, we'll use the London Crime data and the Foursquare API to select which neighborhood best fits our needs.  
+Imagine you are moving to London, UK. It's a major metropolitan city, a financial hub, a famous tourist destination, and home to around 9 million people. But as with every big city, crime is a concern, and you would like to live in a neighborhood that is safe and also popular. In this blog, we'll use the London Crime data and the Foursquare API to select which neighborhood best fits our needs.
 
 The London Crime data consists of more than 13 million rows containing counts of criminal reports by month, LSOA (Lower Super Output Area) borough, and major/minor category. You can [download the data here](https://www.kaggle.com/jboysen/london-crime#london_crime_by_lsoa.csv).  
 About the data:  
