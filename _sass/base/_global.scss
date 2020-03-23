@@ -26,6 +26,7 @@ body {
   font-family: $font-family-main;
   font-size: $font-size;
   word-wrap: break-word;
+  text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
@@ -85,6 +86,7 @@ samp {
 }
 dt {
   font-weight: bold;
+  text-align: left;
 }
 dd {
     margin-left: 2em;
