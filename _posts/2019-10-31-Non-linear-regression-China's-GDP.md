@@ -368,7 +368,7 @@ plt.show()
 ```
 
 
-![png](output_4_0.png)
+<img src="/assets/img/non-linear china/output_4_0.png">
 
 
 We can see that the growth starts off slow. Then, from 2005 onwards, the growth is very significant. It decelerates slightly after the period of the 2008 global recession.
@@ -389,7 +389,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+<img src="/assets/img/non-linear china/output_7_0.png">
 
 
 ### Build the model
@@ -425,7 +425,7 @@ plt.plot(x_data, y_data, 'ro')
 
 
 
-![png](output_11_1.png)
+<img src="/assets/img/non-linear china/output_11_1.png">
 
 
 Our task is to find the best parameters for the model.  
@@ -470,7 +470,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+<img src="/assets/img/non-linear china/output_17_0.png">
 
 
 ### Train/Test Split the data
