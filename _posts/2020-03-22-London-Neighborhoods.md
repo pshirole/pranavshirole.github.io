@@ -10,8 +10,8 @@ The London Crime data consists of more than 13 million rows containing counts of
 About the data:  
 - lsoa_code: code for Lower Super Output Area in Greater London.
 - borough: Common name for London borough.
-- major_category: High level categorization of crime
-- minor_category: Low level categorization of crime within major category.
+- major_category: High-level categorization of crime
+- minor_category: Low-level categorization of crime within a major category.
 - value: monthly reported count of categorical crime in given borough
 - year: Year of reported counts, 2008-2016
 - month: Month of reported counts, 1-12
@@ -58,8 +58,6 @@ VERSION = '20191912'
 # limit the number of venues returned by the foursquare API
 LIMIT = 50
 ```
-
-### Preprocessing the data
 
 Read the dataset into a pandas dataframe.
 
@@ -1334,7 +1332,7 @@ London_crime
 
 ### Scraping data from the web
 Let's scrape additional information about the different Boroughs in London from the ["List of London boroughs" Wikipedia page](https://en.wikipedia.org/wiki/List_of_London_boroughs).  
-We'll use the **Beautiful Soup** library to scrape the latitude and longitude coordinates of the boroghs in London.
+We'll use the **Beautiful Soup** library to scrape the latitude and longitude coordinates of the boroughs in London.
 
 
 ```python
@@ -1542,7 +1540,7 @@ London_table1
 
 
 
-Let's append the dataframes of 'London_table' and 'London_table1' together. A continuous index value will be maintained across the rows in the new appended dataframe.
+Let's append the dataframes of 'London_table' and 'London_table1' together. A continuous index value will be maintained across the rows in the newly appended dataframe.
 
 
 ```python
@@ -5255,7 +5253,7 @@ map_clusters
 <img src="/assets/img/london-crime/map2.JPG">
 
 
-Each cluster is color coded for the ease of presentation. We can see that the  majority of the neighborhoods fall in the purple cluster, which is Cluster 1. Three neighborhoods have their own cluster, which are Red, Green and Yellow, i.e. Cluster 0, 3 and 4 respectively. The Blue cluster, which is Cluster 2, consists of three neighborhoods.
+Each cluster is color-coded for the ease of presentation. We can see that the  majority of the neighborhoods fall in the purple cluster, which is Cluster 1. Three neighborhoods have their own cluster, which are Red, Green and Yellow, i.e. Cluster 0, 3 and 4 respectively. The Blue cluster, which is Cluster 2, consists of three neighborhoods.
 
 ### Analysis
 Analyze each of the clusters to identify the characteristics of each cluster and the neighborhoods in them.
@@ -5600,7 +5598,7 @@ kut_merged[kut_merged['Cluster Labels'] == 2]
 
 
 
-Cluster 2 has three bneighborhoods in it. The most common venues are Grocery Stores, Soccer Fields, Bars, Restaurants, Gyms, and Parks.
+Cluster 2 has three neighborhoods in it. The most common venues are Grocery Stores, Soccer Fields, Bars, Restaurants, Gyms, and Parks.
 
 Examine the fourth cluster.
 
@@ -5747,7 +5745,7 @@ kut_merged[kut_merged['Cluster Labels'] == 4]
 Cluster 4 has only one neighborhood in it. The most common venues are Train Stations, Pubs, and Food Joints.
 
 ### Results
-The aim of this project is to help people who want to relocate to the safest borough in London. Expats can chose the neighborhoods to which they want to relocate based on the most common venues in it. For example, if a person is looking for a neighborhood with good connectivity and public transportation we can see that Clusters 3 and 4 have Bus Stops and Train Stations respectively, as the most common venues. If a person is looking for a neighborhood with stores and restaurants in a close proximity, then the neighborhoods in the Cluster 1 is suitable. For a family, I feel that the neighborhoods in Cluster 2 are more suitable due to the common venues such as Parks, Gym/Fitness centers, Bus Stops, Restaurants, Grocery Stores and Soccer Fields, which is ideal for a family.
+The aim of this project is to help people who want to relocate to the safest borough in London. Expats can choose the neighborhoods to which they want to relocate based on the most common venues in it. For example, if a person is looking for a neighborhood with good connectivity and public transportation we can see that Clusters 3 and 4 have Bus Stops and Train Stations respectively, as the most common venues. If a person is looking for a neighborhood with stores and restaurants in a close proximity, then the neighborhoods in the Cluster 1 are suitable. For a family, I feel that the neighborhoods in Cluster 2 are more suitable due to the common venues such as Parks, Gym/Fitness centers, Bus Stops, Restaurants, Grocery Stores and Soccer Fields, which is ideal for a family.
 
 ### Conclusion
 This project helps a person get a better understanding of the neighborhoods with respect to the most common venues in that neighborhood. It is always helpful to make use of technology to stay one step ahead i.e. finding out more about places before moving into a neighborhood. We have just taken safety as a primary concern to shortlist the borough of London. The future of this project includes taking other factors such as cost of living in the areas into consideration to shortlist the boroughs based on safety and a predefined budget.
