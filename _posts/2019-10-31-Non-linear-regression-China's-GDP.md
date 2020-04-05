@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analyzing China's GDP growth using Non-Linear Regression
-tags: [regression, plotting, modeling, machine learning]
+tags: [regression, visualization, modeling]
 ---
 
 In this blog post, we will analyze China's GDP growth from the year 1960 to 2019. If the data shows a curvy trend, then linear regression will not produce very accurate results when compared to a non-linear regression.
