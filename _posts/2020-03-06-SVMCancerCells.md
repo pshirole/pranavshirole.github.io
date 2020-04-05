@@ -5,6 +5,7 @@ tags: [clustering, svm, visualization, modeling]
 ---
 
 In this blog post, we will use Support Vector Machines (SVM) to build and train a model using human cell records, and classify cells as to realize whether the samples are benign or malignant.  
+
 The dataset ([download here](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cell_samples.csv)) we will be working with consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics. The fields in each record are:
 - ID: Patient ID
 - Clump - Clump thickness
