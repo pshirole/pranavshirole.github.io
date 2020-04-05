@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Analysis using Python
-tags: [analysis, visualization, modeling]
+tags: [visualization, modeling]
 ---
 
 In this blog post, we will be conducting data analysis by various techniques using Python on an automobile dataset. The topics covered include data acquisition, wrangling, normalization, and visualization. We will also create a machine learning model and evaluate it. 
