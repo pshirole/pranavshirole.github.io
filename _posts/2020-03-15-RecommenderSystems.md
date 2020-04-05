@@ -1,3 +1,9 @@
+---
+layout: post
+title: Recommending Movies to a User
+tags: [recommender systems, ]
+---
+
 Recommendation systems are a collection of algorithms used to recommend items to users based on information taken from the user. These systems have become ubiquitous, and can commonly be seen in online stores, movie databases, and job finders. In this blog post, we will explore **content-based** and **colaborative filtering** recommendation systems.
 
 The dataset we'll be working on has been acquired from [GroupLens](https://grouplens.org/datasets/movielens/). It consists of 27 million ratings and 1.1 million tag applications applied to 58,000 movies by 280,000 users.
