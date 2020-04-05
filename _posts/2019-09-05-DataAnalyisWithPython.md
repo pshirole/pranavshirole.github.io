@@ -1,10 +1,17 @@
-# Data Analysis with Python
+---
+layout: post
+title: Data Analysis using Python
+tags: [analysis, visualization, modeling]
+---
+
+In this blog post, we will be conducting data analysis by various techniques using Python on an automobile dataset. The topics covered include data acquisition, wrangling, normalization, and visualization. We will also create a machine learning model and evaluate it. 
+
 We will be using a dataset about cars from back in 1985. This data set consists of three types of entities:  
 - the specification of an auto in terms of various characteristics,
 - its assigned insurance risk rating,
 - its normalized losses in use as compared to other cars.  
 
-The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price. Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale. Actuarians call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe. The third factor is the relative average loss payment per insured vehicle year. This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/specialty, etc…), and represents the average loss per car per year.
+The second entity corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price. Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale. Actuarians call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe. The third entity is the relative average loss payment per insured vehicle year. This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/specialty, etc…), and represents the average loss per car per year.
 
 #### Attribute Information:
     symboling: -3, -2, -1, 0, 1, 2, 3
