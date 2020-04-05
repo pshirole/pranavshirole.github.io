@@ -1,4 +1,8 @@
-# Understanding Logistic Regression
+---
+layout: post
+title: Determining Customer Churn using Logistic Regression
+tags: [regression, modeling]
+---
 
 A telecommunications company is concerned about the number of customers leaving their landline business for cable competitors. They need to understand who is leaving. Imahine that you are an analyst at this company and you have to find out who is leaving and why. In this blog post, we will create a model for the telecommunications company using Logistic Regrssion to predict when its customers will leave for a competitor, so that they can take some action to retain the customers.
 
@@ -598,7 +602,7 @@ plot_confusion_matrix(cnf_matrix, classes=['churn=1','churn=0'],normalize= False
     
 
 
-![png](output_23_1.png)
+<img scr = "/assets/img/logisticRegressionCustomerChurn/output_23_1.png">
 
 
 The first row is for customers whose actual churn value in the test set is 1. As you can calculate, out of 40 customers, the churn value of 15 of them is 1.A nd out of these 15, the classifier correctly predicted 6 of them as 1, and 9 of them as 0. It means that for 6 customers, the actual churn value was 1 in the test set, and the classifier correctly predicted those as 1. However, the actual label of 9 customers was 1, and the classifier predicted these as 0, which is not very good. We can consider it as the error of the model for the first row.
