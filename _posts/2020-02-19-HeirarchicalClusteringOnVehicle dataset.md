@@ -1,3 +1,9 @@
+---
+layout: post
+title: Comparing Vehicles using Heirarchical Clustering
+tags: [clustering, visualization]
+---
+
 Imagine that an automobile manufacturer has developed prototypes for a new vehicle. Before introducing the new model into its range, the manufacturer wants to determine which existing vehicles on the market are most like the prototypes, i.e. how vehicles can be grouped, which group is the most similar with the model, and therefore which models they will be competing against.
 
 In this blog post, we will use the heirarchical clustering to find the most distinctive clusters of vehicles. It will summarize the existing vehicles and help manufacturers to make a decision about the supply of new models.
@@ -452,7 +458,7 @@ dendro = hierarchy.dendrogram(Z,  leaf_label_func=llf, leaf_rotation=0, leaf_fon
 ```
 
 
-![png](output_19_0.png)
+<img src = "/assets/img/heirarchicalClustering/cars/output_19_0.png">
 
 
 ### Clustering using scikit-learn
@@ -683,8 +689,8 @@ plt.ylabel('mpg')
 
 
 
+<img src = "/assets/img/heirarchicalClustering/cars/output_25_2.png">
 
-![png](output_25_2.png)
 
 
 As you can see, we are seeing the distribution of each cluster using the scatter plot, but it is not very clear where is the centroid of each cluster. Moreover, there are 2 types of vehicles in our dataset, "truck" (value of 1 in the type column) and "car" (value of 0 in the type column). So, we use them to distinguish the classes, and summarize the cluster.  
@@ -879,5 +885,5 @@ plt.ylabel('mpg')
 
 
 
-![png](output_31_2.png)
+<img src = "/assets/img/heirarchicalClustering/cars/output_31_2.png">
 
