@@ -1,4 +1,8 @@
-# Using SVM to detect cancerous cells
+---
+layout: post
+title: Detecting Cancerous Cells using Support Vector Machines
+tags: [clustering, svm, visualization, modeling]
+---
 
 In this blog post, we will use Support Vector Machines (SVM) to build and train a model using human cell records, and classify cells as to realize whether the samples are benign or malignant.  
 The dataset ([download here](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cell_samples.csv)) we will be working with consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics. The fields in each record are:
@@ -172,7 +176,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+<img src = "/assets/img/SVM/cancerCells/output_5_0.png">
 
 
 ### Preprocessing the data
@@ -387,7 +391,9 @@ plot_confusion_matrix(cnf_matrix, classes=['Benign(2)','Malignant(4)'], normaliz
     
 
 
-![png](output_23_1.png)
+
+<img src = "/assets/img/SVM/cancerCells/output_23_1.png">
+
 
 
 
@@ -511,7 +517,9 @@ plot_confusion_matrix(cnf_matrix, classes=['Benign(2)','Malignant(4)'], normaliz
     
 
 
-![png](output_33_1.png)
+
+<img src = "/assets/img/SVM/cancerCells/output_33_1.png">
+
 
 
 ### Result
