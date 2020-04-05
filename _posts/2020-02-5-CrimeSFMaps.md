@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Studying crime in San Francisco using Folium
+title: Visualizing Crime in San Francisco
 tags: [maps]
 ---
 
