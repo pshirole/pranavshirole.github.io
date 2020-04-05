@@ -1,4 +1,8 @@
-# Understanding Hierarchical Clustering
+---
+layout: post
+title: Understanding Agglomerative Clustering
+tags: [clustering, visualization, random data generation]
+---
 
 In this blog post, we will be looking at **Agglomerative Hierarchical Clustering**. This is a bottom up approach of hierarchical clustering.
 
@@ -45,9 +49,7 @@ plt.scatter(X1[:, 0], X1[:, 1], marker='o')
     <matplotlib.collections.PathCollection at 0x1e595219198>
 
 
-
-
-![png](output_5_1.png)
+<img scr= "/assets/img/heirarchicalClustering/understanding/output_5_1.png">
 
 
 ### Agglomerative clustering
@@ -110,7 +112,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+<img scr= "/assets/img/heirarchicalClustering/understanding/output_11_0.png">
 
 
 ### Dendrogram
@@ -152,5 +154,5 @@ dendro = hierarchy.dendrogram(Z)
 ```
 
 
-![png](output_17_0.png)
+<img scr= "/assets/img/heirarchicalClustering/understanding/output_17_0.png">
 
