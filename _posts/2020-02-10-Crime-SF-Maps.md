@@ -559,8 +559,4 @@ sanfran_map
 
 <img src= "/assets/img/sf_crime/map2.JPG">
 
-
-```python
-
-```
 If run the above code in a Jupyter notebook, you can zoom out all the way, and you will see that all markers are grouped into one cluster - the global cluster of 100 crimes (which is the total number of crimes we have considered in our dataset). Once you start zooming in, the global cluster will start breaking up into smaller clusters. Zooming in all the way will result in individual markers.
