@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparing Vehicles using Heirarchical Clustering
+title: Comparing Vehicles using Hierarchical Clustering
 tags: [clustering, visualization]
 ---
 
