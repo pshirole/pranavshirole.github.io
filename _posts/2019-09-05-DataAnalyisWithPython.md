@@ -1996,7 +1996,7 @@ plt.pyplot.title("horsepower bins")
 
 
 
-![png](output_40_1.png)
+<img src="/assets/img/dataAnalysisWithPython/output_40_0.png">
 
 
 
@@ -2143,7 +2143,7 @@ plt.pyplot.title("horsepower bins")
 
 
 
-![png](output_45_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_45_1.png">
 
 
 #### Bins Visualization
@@ -2174,7 +2174,7 @@ plt.pyplot.title('horsepower bins')
 
 
 
-![png](output_47_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_47_1.png">
 
 
 #### Indicator variable (or dummy variable)
@@ -3237,7 +3237,7 @@ plt.ylim(0,)
 
 
 
-![png](output_66_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_66_1.png">
 
 
 As the engine-size goes up, the price goes up: this indicates a positive direct correlation between these two variables. Engine size seems like a pretty good predictor of price since the regression line is almost a perfect diagonal line.
@@ -3356,7 +3356,7 @@ sns.regplot(x='peak-rpm', y='price', data=df)
 
 
 
-![png](output_72_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_72_1.png">
 
 
 Peak rpm does not seem like a good predictor of the price at all since the regression line is close to horizontal. Also, the data points are very scattered and far from the fitted line, showing lots of variability. Therefore it's it is not a reliable variable.
@@ -3426,7 +3426,7 @@ sns.boxplot(x='body-style', y='price', data=df)
 
 
 
-![png](output_76_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_76_1.png">
 
 
 We see that the distributions of price between the different body-style categories have a significant overlap, and so body-style would not be a good predictor of price.
@@ -3445,7 +3445,7 @@ sns.boxplot(x='engine-location', y='price', data=df)
 
 
 
-![png](output_78_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_78_1.png">
 
 
 We see that the distribution of price between these two engine-location categories, front and rear, are distinct enough to take engine-location as a potential good predictor of price.
@@ -3464,7 +3464,7 @@ sns.boxplot(x='drive-wheels', y='price', data=df)
 
 
 
-![png](output_80_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_80_1.png">
 
 
 We see that the distribution of price between the different drive-wheels categories differs; as such, drive-wheels could potentially be a predictor of price.
@@ -4467,7 +4467,7 @@ plt.show()
 ```
 
 
-![png](output_105_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_105_0.png">
 
 
 The heatmap plots the target variable (price) proportional to colour with respect to the variables 'drive-wheel' and 'body-style' in the vertical and horizontal axis respectively. This allows us to visualize how the price is related to 'drive-wheel' and 'body-style'.
@@ -4497,7 +4497,7 @@ plt.show()
 ```
 
 
-![png](output_107_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_107_0.png">
 
 
 ### Correlation and Causation
@@ -5938,7 +5938,7 @@ plt.ylim(0,)
 
 
 
-![png](output_176_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_176_1.png">
 
 
 We can see from this plot that price is negatively correlated to highway-mpg, since the regression slope is negative. One thing to keep in mind when looking at a regression plot is to pay attention to how scattered the data points are around the regression line. This will give you a good indication of the variance of the data, and whether a linear model would be the best fit or not. If the data is too far off from the line, this linear model might not be the best model for this data.
@@ -5959,7 +5959,7 @@ plt.ylim(0,)
 
 
 
-![png](output_178_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_178_1.png">
 
 
 Comparing the regression plot of "peak-rpm" and "highway-mpg" we see that the points for "highway-mpg" are much closer to the generated line and on the average decrease. The points for "peak-rpm" have more spread around the predicted line, and it is much harder to determine if the points are decreasing or increasing as the "highway-mpg" increases.
@@ -6044,7 +6044,7 @@ plt.show()
 ```
 
 
-![png](output_183_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_183_0.png">
 
 
 We can see from this residual plot that the residuals are not randomly spread around the x-axis, which leads us to believe that maybe a non-linear model is more appropriate for this data.
@@ -6094,7 +6094,7 @@ plt.close()
 ```
 
 
-![png](output_189_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_189_0.png">
 
 
 We can see that the fitted values are reasonably close to the actual values, since the two distributions overlap a bit. However, there is definitely some room for improvement.
@@ -6161,7 +6161,7 @@ PlotPolly(p, x, y, 'highway-mpg')
 ```
 
 
-![png](output_195_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_195_0.png">
 
 
 
@@ -6198,7 +6198,7 @@ PlotPolly(p1, x, y, 'highway-mpg')
 ```
 
 
-![png](output_199_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_199_0.png">
 
 
 We see that by using very high order polynomials, overfitting is observed.
@@ -6503,8 +6503,7 @@ plt.plot(new_input, yhat)
 plt.show()
 ```
 
-
-![png](output_234_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_234_0.png">
 
 
 ### Decision Making: Determing a Good Model Fit
@@ -7008,7 +7007,7 @@ DistributionPlot(y_train, y_hat_train, 'Actual Values (Train)', 'Predicted Value
 ```
 
 
-![png](output_268_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_268_0.png">
 
 
 Figure 1: Plot of predicted values using the training data compared to the training data. 
@@ -7023,7 +7022,7 @@ DistributionPlot(y_test, y_hat_test, 'Actual Values (Test)', 'Predicted Values (
 ```
 
 
-![png](output_271_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_271_0.png">
 
 
 Figure 2: Plot of predicted value using the test data compared to the test data. 
@@ -7113,7 +7112,7 @@ PollyPlot(x_train[['horsepower']], x_test[['horsepower']], y_train, y_test, poly
 ```
 
 
-![png](output_282_0.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_282_0.png">
 
 
 Figure 3: A polynomial regression model; red dots represent training data, green dots represent test data, and the blue line represents the model prediction. 
@@ -7176,7 +7175,7 @@ plt.text(3, 0.75, 'Maximum R^2 ')
 
 
 
-![png](output_289_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_289_1.png">
 
 
 We see the R^2 gradually increases until an order three polynomial is used. Then the R^2 dramatically decreases at four.
@@ -7306,7 +7305,7 @@ plt.legend()
 
 
 
-![png](output_303_1.png)
+<img src = "/assets/img/dataAnalysisWithPython/output_303_1.png">
 
 
 Figure 6: The blue line represents the R^2 of the test data, and the red line represents the R^2 of the training data. The x-axis represents the different values of Alpha. 
