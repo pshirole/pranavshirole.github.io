@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Agglomerative Heirarchical Clustering
+title: Understanding Agglomerative Hierarchical Clustering
 tags: [clustering, visualization, random data generation]
 ---
 
