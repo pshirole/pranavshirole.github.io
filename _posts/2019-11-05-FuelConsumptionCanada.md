@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analyzing Emission Ratings for all cars in Canada (model year 2019)
-tags: [regression, visualization, modeling]
+tags: [data analysis, regression, visualization, modeling]
 ---
 
 In this blog post, we will use scikit-learn to implement different types of linear regression on our dataset. Then, we will split our data into training and testing sets, create a model using the training set, evaluate the model using a test set, and finally use the model to predict an unknown value.
