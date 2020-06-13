@@ -1996,7 +1996,7 @@ plt.pyplot.title("horsepower bins")
 
 
 
-<img src="/assets/img/dataAnalysisWithPython/output_40_0.png">
+<img src="/assets/img/dataAnalysisWithPython/output_40_1.png">
 
 
 
