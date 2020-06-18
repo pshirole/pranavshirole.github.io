@@ -14,7 +14,7 @@ theme_settings:
   # Header and footer text
   header_text: >  # Remove all header text in <code>_config.yml</code> to disable this feature.
      <p><b>"You can have data without information, but you cannot have information without data."</b> <br>- <i>Daniel Keys Moran</i></p>
-     <p><b>Welcome to my Data Science Portfolio</b></p>
+     <p><h4>Welcome to my Data Science Portfolio</h4></p>
   header_text_feature_image:
   footer_text: >
    Copyright © 2020, Pranav Shirole. Powered by <a href="https://jekyllrb.com/">Jekyll.</a>
