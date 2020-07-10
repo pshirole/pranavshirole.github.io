@@ -5,6 +5,7 @@ tags: [classification]
 ---
 
 In this blog post, we will be analyzing the quality of red and white wines, and check which are the attributes that affect wine quality the most.  
+
 There are two datasets, related to red and white Vinho Verde wine samples, from the north of Portugal. The datasets can be downloaded [here](https://archive.ics.uci.edu/ml/datasets/wine+quality). The goal is to model wine quality based on physicochemical tests. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).  
 
 #### Attribute Information:
