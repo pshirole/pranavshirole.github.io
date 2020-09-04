@@ -220,7 +220,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+<img src="/assets/img/computer_vision/cats_vs_dogs/output_14_0.png">
 
 
 ## Building a model
@@ -481,11 +481,9 @@ plt.title('Training and validation loss')
 
 
 
-![png](output_27_1.png)
+<img src="/assets/img/computer_vision/cats_vs_dogs/output_27_1.png">
 
-
-
-![png](output_27_2.png)
+<img src="/assets/img/computer_vision/cats_vs_dogs/output_27_2.png">
 
 
 The graphs suggest that the validation accuracy is seen rising synchronously with the training accuracy. The validation loss is decreasing synchronously with the training accuracy.  
@@ -1367,13 +1365,9 @@ plt.title('Training and validation loss')
     Text(0.5, 1.0, 'Training and validation loss')
 
 
+<img src="/assets/img/computer_vision/cats_vs_dogs/output_38_1.png">
 
-
-![png](output_38_1.png)
-
-
-
-![png](output_38_2.png)
+<img src="/assets/img/computer_vision/cats_vs_dogs/output_38_2.png">
 
 
 Here we can see that the validation loss and accuracy lines are much smoother for this model as compared to the earlier one. The loss values are lower, while the accuracy values are higher.  
