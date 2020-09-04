@@ -121,11 +121,6 @@ cv2.destroyAllWindows()
 
 The application is now built. We can run the Python file from the command prompt using the following code. If the image is in the same directory, use the image name. If the image is in a different directory, make sure you give the full path of the image.
 
-*   List item
-*   List item
-
-
-
 
 ```python
 python color_detection.py <image name/path here>
