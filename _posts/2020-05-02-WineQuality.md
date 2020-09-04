@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting the quality of wine
+title: Predicting the Quality of Wine
 tags: [classification]
 ---
 
