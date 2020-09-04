@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Classifying Cats and Dogs using CNN and Transfer Learning
-tags: [computer vision, CNN, Transfer Learning]
+tags: [computer vision, tensorflow, cnn, transfer learning]
 ---
 
 In this blog post, we'll build a model to try and identify whether images contain a dog or a cat. The dataset contains 25,000 images of cats and dogs and they have already been split into train and test sets. You can download the data [here](https://www.kaggle.com/c/dogs-vs-cats).  
