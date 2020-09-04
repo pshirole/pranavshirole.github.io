@@ -1,3 +1,9 @@
+---
+layout: post
+title: Creating a Color Detector using OpenCV and Python
+tags: [computer vision, opencv]
+---
+
 In this blog post, we will create a Color Detector that will detect color names and RGB values from any picture using Python and OpenCV. The application will  gives us the name of the color when we click on any area in the picture.  
 We have a data file that contains color names and its RGB values. We will calculate the distance from each color and find the shortest one. We can use an IDE like Spyder or PyCharm for this project.
 
@@ -124,3 +130,12 @@ The application is now built. We can run the Python file from the command prompt
 ```python
 python color_detection.py <image name/path here>
 ```
+
+Below are some examples of color detection on an image in my files. The area surrounded by a red square is where I double-clicked my mouse to find the color of that spot. You can use this application on some of your images as well. 
+
+<img src="/assets/img/color_detection/Capture4.png">
+
+<img src="/assets/img/color_detection/Capture5.png">
+
+<img src="/assets/img/color_detection/Capture6.png">
+
