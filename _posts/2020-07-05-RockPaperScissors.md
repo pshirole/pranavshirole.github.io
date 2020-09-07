@@ -1,3 +1,9 @@
+---
+layout: post
+title: Multiclass Classifications using CNN and Tensorflow
+tags: [computer vision, tensorflow, cnn]
+---
+
 In this blog post, we will identify whether an image is Rock, Paper or Scissors.
 
 ## The dataset
@@ -115,46 +121,42 @@ for i, img_path in enumerate(next_rock+next_paper+next_scissors):
 
     /tmp/rps/rock/rock02-110.png
     
-
-
-![png](output_5_1.png)
+    
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_1.png">
 
 
     /tmp/rps/rock/rock02-061.png
     
 
 
-![png](output_5_3.png)
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_3.png">
 
 
     /tmp/rps/paper/paper02-028.png
     
 
-
-![png](output_5_5.png)
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_5.png">
 
 
     /tmp/rps/paper/paper03-019.png
     
 
-
-![png](output_5_7.png)
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_7.png">
 
 
     /tmp/rps/scissors/scissors04-059.png
     
 
-
-![png](output_5_9.png)
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_9.png">
 
 
     /tmp/rps/scissors/scissors04-078.png
     
 
+<img src="/assets/img/computer_vision/rock_paper_scissors/output_5_11.png">
 
-![png](output_5_11.png)
 
-
+## Data preprocessing
 
 ```python
 import tensorflow as tf
@@ -190,6 +192,12 @@ validation_generator = validation_datagen.flow_from_directory(
 	class_mode='categorical',
   batch_size=126
 )
+
+```
+
+## Modeling
+
+```python
 
 model = tf.keras.models.Sequential([
     # Note the input shape is the desired size of the image 150x150 with 3 bytes color
