@@ -1,4 +1,10 @@
-Autonomous driving is one of the most exciting and disruptive innovations of our time. Lane Detection is one of the preliminary steps involved during the training of an autonomous driving car. In this blog post, we will perform lane detection on [this video](https://drive.google.com/file/d/1V7OrAwjxtHR8LkfxXDVRu5lx2e5fxljo/view?usp=sharing).
+---
+layout: post
+title: Real Time Lane Detection using OpenCV
+tags: [computer vision, opencv]
+---
+
+Autonomous driving is one of the most exciting and disruptive innovations of our time. Lane Detection is one of the preliminary steps involved during the training of an autonomous driving car. In this blog post, we will perform real time lane detection on [this video](https://drive.google.com/file/d/1V7OrAwjxtHR8LkfxXDVRu5lx2e5fxljo/view?usp=sharing).
 
 
 ```
@@ -147,3 +153,9 @@ cv2.destroyAllWindows()
 The output video can be viewed here.  
 
 I have uploaded the input and output images of the program below.
+
+### Input
+<img src="/assets/img/computer_vision/lane_detection/road1.JPG">
+
+### Output
+<img src="/assets/img/computer_vision/lane_detection/road2.JPG">
