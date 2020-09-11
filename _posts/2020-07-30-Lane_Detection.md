@@ -150,7 +150,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-The output video can be viewed here.  
+The output video can be viewed [here](https://drive.google.com/file/d/1vp4Jz6hqbolkaaIll-glAzgwrAzebNjn/view?usp=sharing).  
 
 I have uploaded the input and output images of the program below.
 
