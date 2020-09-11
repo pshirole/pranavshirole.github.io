@@ -128,9 +128,9 @@ python color_detection.py <image name/path here>
 
 Below are some examples of color detection on an image in my files. The area surrounded by a red square is where I double-clicked my mouse to find the color of that spot. You can use this application on some of your images as well. 
 
-<img src="/assets/img/color_detection/Capture4.png">
+<img src="/assets/img/computer_vision/color_detection/Capture4.png">
 
-<img src="/assets/img/color_detection/Capture5.png">
+<img src="/assets/img/computer_vision/color_detection/Capture5.png">
 
-<img src="/assets/img/color_detection/Capture6.png">
+<img src="/assets/img/computer_vision/color_detection/Capture6.png">
 
