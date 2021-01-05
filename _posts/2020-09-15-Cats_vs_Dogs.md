@@ -1318,7 +1318,7 @@ history = model.fit(train_generator,
     
 
 After 25 epochs, the *training loss* = 0.1 and *training accuracy* = 0.9, while the *validation loss* = 0.11 and *validation accuracy* = 0.95.  
-The model has performed much better after applying transfer learning as compared to the CNN we used earlier.
+The model has performed much better after applying transfer learning as compared to the plain CNN we used earlier.
 
 
 ## Evaluating accuracy and loss for the model
@@ -1376,4 +1376,4 @@ plt.title('Training and validation loss')
 
 Here we can see that the validation loss and accuracy lines are much smoother for this model as compared to the earlier one. The loss values are lower, while the accuracy values are higher.  
 
-Hence, we can conclude that the model that uses transfer learning classifies cats and dogs much better than the CNN.
+Hence, we can conclude that the model that uses transfer learning classifies cats and dogs much better than the plain CNN.
