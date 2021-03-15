@@ -5,7 +5,7 @@ tags: [computer vision, pytorch, fastai, classification]
 ---
 
 In this blog post, we'll try to figure out what breed of pet is shown in each image of a dataset using Fastai and PyTorch.  
-The dataset we'll be using is the [Oxford-IIIT Pet] (https://www.robots.ox.ac.uk/~vgg/data/pets/) dataset. It's a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting.
+The dataset we'll be using is the [Oxford-IIIT Pet](https://www.robots.ox.ac.uk/~vgg/data/pets/) dataset. It's a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting.
 
 First, let's install fastai and import all its modules.
 
