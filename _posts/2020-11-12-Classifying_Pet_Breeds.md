@@ -359,8 +359,6 @@ interp.most_confused(min_val=5)
 
 These are the breeds of cats and dogs that are hardest to predict by our model. Coincidently, these are also pretty common comparisons that even experts get confused about, for e.g. the differences in appearance between the Staffordshire Bull Terrier and the American Pit Bull Terrier (i.e. the comparison that confused our model the most) are so minute that most humans will find it hard to distinguish them.
 
-### Picking the Learning Rate
-Let's try to improve our model by picking an appropriate learning rate.
 
 
 ```python
@@ -395,8 +393,8 @@ learn.save('model1')
     Path('models/model1.pth')
 
 
-
-Let's use fastai's learning rate finder to find a suitable learning rate.
+### Picking the Learning Rate
+Let's try to improve our model by picking an appropriate learning rate using fastai's learning rate finder.
 
 
 ```python
