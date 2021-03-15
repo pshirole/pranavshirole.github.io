@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Predicting text for a Harry Potter book
+title: Classifying Pet Breeds
 tags: [computer vision, pytorch, fastai, classification]
 ---
 
-## Classifying Pet Breeds 
 In this blog post, we'll try to figure out what breed of pet is shown in each image of a dataset.  
 The dataset we'll be using is the Oxford-IIIT Pet dataset. It's a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. The dataset can be [downloaded here](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
