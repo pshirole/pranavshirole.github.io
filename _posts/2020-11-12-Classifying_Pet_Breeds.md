@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Classifying Pet Breeds
+title: Classifying Pet Breeds 
 tags: [computer vision, pytorch, fastai, classification]
 ---
 
-In this blog post, we'll try to figure out what breed of pet is shown in each image of a dataset.  
+In this blog post, we'll try to figure out what breed of pet is shown in each image of a dataset using Fastai and PyTorch.  
 The dataset we'll be using is the Oxford-IIIT Pet dataset. It's a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. The dataset can be [downloaded here](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
 First, let's install fastai and import all its modules.
@@ -393,7 +393,7 @@ learn.save('model1')
     Path('models/model1.pth')
 
 
-### Picking the Learning Rate
+### Picking the learning rate
 Let's try to improve our model by picking an appropriate learning rate using fastai's learning rate finder.
 
 
@@ -590,7 +590,7 @@ learn2.save('model2')
 
 
 
-### Unfreezing and Transfer Learning
+### Unfreezing and transfer learning
 
 When fine-tuning, we aim to replace the random weights in our added linear layers with weights that correctly achieve our desired task of classifying pet breeds without breaking the carefully pretrained weights and the other layers. We'll tell the optimizer to only update the weights in those randomly added final layers, and not change the weights in the rest of the neural network. This is called *freezing* the pretrained layers.  
 When we create a model from a pretrained network, fastai automatically freexzes all of the pretrained layers for us.
@@ -853,7 +853,7 @@ learn3.save('model3')
 
 
 
-### Using Deeper Architectures
+### Using deeper architectures
 Let's try to improve our model's performance using deeper architectures.
 
 Deeper architectures like ResNet50 take longer to train. We can speed things up by using mixed-precision training, wherein we can use less-precise numbers like fp16 (half-precision floating point). To enable this feature, we just add `to_fp16()` to the `Learner`.
