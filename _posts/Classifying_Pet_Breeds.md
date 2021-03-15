@@ -1,4 +1,10 @@
-## Classifying Pet Breeds using fastai
+---
+layout: post
+title: Predicting text for a Harry Potter book
+tags: [computer vision, pytorch, fastai, classification]
+---
+
+## Classifying Pet Breeds 
 In this blog post, we'll try to figure out what breed of pet is shown in each image of a dataset.  
 The dataset we'll be using is the Oxford-IIIT Pet dataset. It's a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. The dataset can be [downloaded here](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
@@ -136,7 +142,8 @@ dls.show_batch(max_n=9, figsize=(6,7))
 ```
 
 
-![png](output_19_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_19_0.png">
+
 
 
 ### Training a simple model
@@ -311,7 +318,8 @@ learn.recorder.plot_loss()
 ```
 
 
-![png](output_23_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_23_0.png">
+
 
 
 Even our simple model gives us really good accuracy. Let's use a classification matrix to interpret our model; see where it's doing well and where it's doing badly.
@@ -324,10 +332,8 @@ interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
 
 
 
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_25_1.png">
 
-
-
-![png](output_25_1.png)
 
 
 We have 37 different breeds of pet, which means we have 37 X 37 entries in this matrix, which makes it hard to interpret. We'll use the `most_confused` method, which just shows us the cells of the confusion matrix with the most incorrect predictions.
@@ -363,7 +369,7 @@ interp.plot_top_losses(8, nrows=2)
 ```
 
 
-![png](output_29_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_29_0.png">
 
 
 
@@ -373,10 +379,8 @@ learn.show_results()
 
 
 
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_30_1.png">
 
-
-
-![png](output_30_1.png)
 
 
 Let's save this model.
@@ -403,10 +407,8 @@ lr_min, lr_steep = learn2.lr_find()
 
 
 
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_34_1.png">
 
-
-
-![png](output_34_1.png)
 
 
 
@@ -576,8 +578,7 @@ Let's plot the losses on a graph.
 learn2.recorder.plot_loss()
 ```
 
-
-![png](output_39_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_39_0.png">
 
 
 
@@ -840,8 +841,7 @@ learn3.fit_one_cycle(12, lr_max=slice(1e-6,1e-4))
 learn3.recorder.plot_loss()
 ```
 
-
-![png](output_49_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_49_0.png">
 
 
 
@@ -1033,7 +1033,7 @@ learn4.recorder.plot_loss()
 ```
 
 
-![png](output_54_0.png)
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_54_0.png">
 
 
 
