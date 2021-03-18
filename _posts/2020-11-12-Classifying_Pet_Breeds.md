@@ -320,7 +320,7 @@ learn.recorder.plot_loss()
 
 
 
-Even our simple model gives us really good accuracy. Let's use a classification matrix to interpret our model; see where it's doing well and where it's doing badly.
+Even our simple model gives us really good accuracy. Let's use a confusion matrix to interpret our model; see where it's doing well and where it's doing badly.
 
 
 ```python
