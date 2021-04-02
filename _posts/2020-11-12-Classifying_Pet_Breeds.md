@@ -1047,6 +1047,8 @@ learn4.save('model4')
 ### Exporting our model
 Comparing the training results and the graphs of the losses, we can conclude that the first model we trained was the best one. So we will now export this model and create a GUI and build a classifer within our notebook itself.
 
+*Note: The GUI will not be visible in this blog post since this is not a Jupyter notebook. But rest assured, if you were to copy the below code in a notebook, you'll be able to create a GUI within it.*
+
 
 ```python
 learn.export()
