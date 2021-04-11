@@ -5215,7 +5215,7 @@ map_newyork
 
 
 
-You can zoom into the above map, and click on each circle mark to reveal the name of the neighborhood and its respective borough.
+If you were working in a notebook and using Folium, you could zoom into the above map, and click on each circle mark to reveal the name of the neighborhood and its respective borough.
 
 Let's simplify the above map, and segment and cluster only the neighborhoods in Manhattan. We will slice the original dataframe and create a new dataframe of the Manhattan data.
 
