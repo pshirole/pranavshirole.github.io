@@ -672,8 +672,8 @@ learn3.lr_find()
 
 
 
+<img src="/assets/img/computer_vision/pet_breeds_classifier/output_46_2.png">
 
-![png](output_46_2.png)
 
 
 We can see that we have a somewhat flat area before a sharp increase, and we should take a point well before that sharp increase. But the deepest layers of our pretrained model might not need as high a learning rate as the last ones, so we should use different learning rates for different layers, which is known as *discriminative learning rates*.  
