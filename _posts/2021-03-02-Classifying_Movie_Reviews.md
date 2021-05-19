@@ -795,3 +795,5 @@ learn.show_results()
   </tbody>
 </table>
 
+
+Here we can see that out of the random nine reviews that our model picked, it classified eight of them correctly, which in itself is impressive. But look more closely at the one it got wrong (the fifth one, which the model predicted to be negative but it's actually positive). With the way the review is worded, a lot of humans would consider those statements as negative. This just shows how good our model is.
