@@ -45,7 +45,7 @@ We'll download the data from Kaggle using the Kaggle API.
 
 
 ```python
-creds = '{"username":"pranavshirole","key":"081af3bb2945508e6f422c6053a31972"}'
+creds = '{"username":"XXX","key":"XXX"}'
 ```
 
 
