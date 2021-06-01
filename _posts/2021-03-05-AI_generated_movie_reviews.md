@@ -7,7 +7,7 @@ tags: [nlp, pytorch, fastai]
 
 In this blog post, we will create a language model that will generate its own movie reviews.
 
-This blog post is basically a continuation of my previous post and you should definitely read that if you want to better understand the methodology behind the process used in this task.
+This blog post is basically a continuation of my [previous post](https://pranavshirole.github.io/2021/03/02/Classifying_Movie_Reviews.html) and you should definitely read that if you want to better understand the methodology behind the process used in this task.
 
 The dataset we'll be using is the [IMDb Large Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/), which contains 25,000 highly polarized movie reviews for training, and 25,000 for testing.
 
