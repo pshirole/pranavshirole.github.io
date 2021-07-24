@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Classifying movie reviews using Sentiment Analysis and ULMFit
+feature-img: "assets/img/nlp/ai_reviews/erik-witsoe-GF8VvBgcJ4o-unsplash.jpg"
 tags: [nlp, pytorch, fastai]
 ---
 
