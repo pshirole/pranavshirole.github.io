@@ -1,4 +1,10 @@
-This blog post is a continuation of the previous post.
+---
+layout: post
+title: Python Basics - Part 2
+tags: [python]
+---
+
+This is part 2 of a Python tutorial for beginners.
 
 ---
 ### Index
