@@ -12,7 +12,7 @@ This is part 2 of a Python tutorial for beginners.
 [List Comprehensions](#list-comprehensions)  
 [Dictionary Comprehensions](#dictionary-comprehensions)  
 [Lambdas](#lambdas)  
-[Object-Oriented-Programming (OOP)](#object-oriented-programming-(oop))  
+[Object-Oriented-Programming (OOP)](#object-oriented-programming-oop)  
 [Classes](#classes)  
 [Class Property](#class-property)  
 [Inheritance](#inheritance)  
