@@ -13,17 +13,17 @@ I have been the beneficiary of several of books and YouTube tutorials that have 
 ### Index 
 
 [Display Output](#display-output)  
-[Getting information from the user](#Getting-information-from-the-user)  
-[Comments](#Comments)  
-[String concepts](#String-concepts)  
-[Working with Numbers](#Working-with-Numbers)  
-[Working with Dates](#Working-with-Dates)  
-[Error Handling](#Error-Handling)  
-[Handling Conditions](#Handling-Conditions)  
-[Collections](#Collections)  
-[Random Module](#Random-Module)  
-[Loops](#Loops)    
-[Functions](#Functions)  
+[Getting information from the user](#getting-information-from-the-user)  
+[Comments](#comments)  
+[String concepts](#string-concepts)  
+[Working with Numbers](#working-with-numbers)  
+[Working with Dates](#working-with-dates)  
+[Error Handling](#error-handling)  
+[Handling Conditions](#handling-conditions)  
+[Collections](#collections)  
+[Random Module](#random-module)  
+[Loops](#loops)    
+[Functions](#functions)  
 
 
 ---
