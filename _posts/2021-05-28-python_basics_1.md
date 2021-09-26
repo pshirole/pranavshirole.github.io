@@ -12,7 +12,7 @@ I have been the beneficiary of several of books and YouTube tutorials that have 
 ---
 ### Index 
 
-[Display Output](#Display-Output)  
+[Display Output](#display-output)  
 [Getting information from the user](#Getting-information-from-the-user)  
 [Comments](#Comments)  
 [String concepts](#String-concepts)  
