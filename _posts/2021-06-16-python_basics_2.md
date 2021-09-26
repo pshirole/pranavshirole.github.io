@@ -9,14 +9,14 @@ This is part 2 of a Python tutorial for beginners.
 ---
 ### Index
 
-[List Comprehensions](#List-Comprehensions)  
-[Dictionary Comprehensions](#Dictionary-Comprehensions)  
-[Lambdas](#Lambdas)  
-[Object-Oriented-Programming (OOP)](#Object-Oriented-Programming-(OOP))  
-[Classes](#Classes)  
-[Class Property](#Class-Property)  
-[Inheritance](#Inheritance)  
-[Managing the File System](#Managing-the-File-System)  
+[List Comprehensions](#list-comprehensions)  
+[Dictionary Comprehensions](#dictionary-comprehensions)  
+[Lambdas](#lambdas)  
+[Object-Oriented-Programming (OOP)](#object-oriented-programming-(oop))  
+[Classes](#classes)  
+[Class Property](#class-property)  
+[Inheritance](#inheritance)  
+[Managing the File System](#managing-the-file-system)  
 
 ---
 ### List Comprehensions
