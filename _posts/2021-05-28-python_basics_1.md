@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Python Basics - Part 1
+subtitle: Part 1 of a Python tutorial for beginners.
 tags: [python]
 ---
 
-This is Part 1 of a Python tutorial for beginners.
 
 As a self-taught Data Scientist and programmer, I always get asked about how I started my path towards learning, and a lot of non-coders ask me about how they can learn more about Data Science. And while I tell them about the umpteen Data Analytics and Data Visualization tools, various Machine Learning algorithms, and which Deep Learning frameworks to choose, it all starts with learning Python. Python is an interpreted high-level general-purpose programming language. In my view, Python is the best programming language to learn, in order to become a Data Scientist, owing to its readability, non-complexity, its large standard libraries, and its huge community.  
 I have been the beneficiary of several of books and YouTube tutorials that have helped me become a better Python Developer. This blog post is my way of giving back to the community. This might not be the best place to start learning how to code in Python. However, this blog post aims to be a good cheat sheet for beginners trying to look something up or if they want a refresher as to how certain objects perform.
